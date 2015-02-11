@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5A2B441AAF891B0065E527 /* TSDataEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A2B431AAF891B0065E527 /* TSDataEncryptor.m */; };
+		1AEDCC621A9A2E790076715A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDCC611A9A2E790076715A /* AppDelegate.m */; };
+		1AEDCC641A9A2E790076715A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDCC631A9A2E790076715A /* main.m */; };
+		1AEDCC661A9A2E790076715A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDCC651A9A2E790076715A /* Images.xcassets */; };
+		1AEDCC691A9A2E7A0076715A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDCC671A9A2E7A0076715A /* MainMenu.xib */; };
+		1AEDCC751A9A2E7A0076715A /* DataEncryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDCC741A9A2E7A0076715A /* DataEncryptorTests.m */; };
+		1AEDCC801A9A39240076715A /* TSDataEncryptorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDCC7F1A9A39240076715A /* TSDataEncryptorController.m */; };
+		5AA483EC1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA483EB1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AEDCC6F1A9A2E7A0076715A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEDCC531A9A2E790076715A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEDCC5A1A9A2E790076715A;
+			remoteInfo = DataEncryptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5A2B421AAF891B0065E527 /* TSDataEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDataEncryptor.h; sourceTree = "<group>"; };
+		1A5A2B431AAF891B0065E527 /* TSDataEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDataEncryptor.m; sourceTree = "<group>"; };
+		1AEDCC5B1A9A2E790076715A /* DataEncryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataEncryptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEDCC5F1A9A2E790076715A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEDCC601A9A2E790076715A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AEDCC611A9A2E790076715A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AEDCC631A9A2E790076715A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AEDCC651A9A2E790076715A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AEDCC681A9A2E7A0076715A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AEDCC6E1A9A2E7A0076715A /* DataEncryptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataEncryptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEDCC731A9A2E7A0076715A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEDCC741A9A2E7A0076715A /* DataEncryptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataEncryptorTests.m; sourceTree = "<group>"; };
+		1AEDCC7E1A9A39240076715A /* TSDataEncryptorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDataEncryptorController.h; sourceTree = "<group>"; };
+		1AEDCC7F1A9A39240076715A /* TSDataEncryptorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDataEncryptorController.m; sourceTree = "<group>"; };
+		5AA483EA1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDataEncryptorHelper.h; sourceTree = "<group>"; };
+		5AA483EB1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDataEncryptorHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEDCC581A9A2E790076715A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEDCC6B1A9A2E7A0076715A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEDCC521A9A2E790076715A = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC5D1A9A2E790076715A /* DataEncryptor */,
+				1AEDCC711A9A2E7A0076715A /* DataEncryptorTests */,
+				1AEDCC5C1A9A2E790076715A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEDCC5C1A9A2E790076715A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC5B1A9A2E790076715A /* DataEncryptor.app */,
+				1AEDCC6E1A9A2E7A0076715A /* DataEncryptorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEDCC5D1A9A2E790076715A /* DataEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC601A9A2E790076715A /* AppDelegate.h */,
+				1AEDCC611A9A2E790076715A /* AppDelegate.m */,
+				1A5A2B421AAF891B0065E527 /* TSDataEncryptor.h */,
+				1A5A2B431AAF891B0065E527 /* TSDataEncryptor.m */,
+				5AA483EA1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.h */,
+				5AA483EB1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.m */,
+				1AEDCC7E1A9A39240076715A /* TSDataEncryptorController.h */,
+				1AEDCC7F1A9A39240076715A /* TSDataEncryptorController.m */,
+				1AEDCC651A9A2E790076715A /* Images.xcassets */,
+				1AEDCC671A9A2E7A0076715A /* MainMenu.xib */,
+				1AEDCC5E1A9A2E790076715A /* Supporting Files */,
+			);
+			path = DataEncryptor;
+			sourceTree = "<group>";
+		};
+		1AEDCC5E1A9A2E790076715A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC5F1A9A2E790076715A /* Info.plist */,
+				1AEDCC631A9A2E790076715A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEDCC711A9A2E7A0076715A /* DataEncryptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC741A9A2E7A0076715A /* DataEncryptorTests.m */,
+				1AEDCC721A9A2E7A0076715A /* Supporting Files */,
+			);
+			path = DataEncryptorTests;
+			sourceTree = "<group>";
+		};
+		1AEDCC721A9A2E7A0076715A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDCC731A9A2E7A0076715A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEDCC5A1A9A2E790076715A /* DataEncryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEDCC781A9A2E7A0076715A /* Build configuration list for PBXNativeTarget "DataEncryptor" */;
+			buildPhases = (
+				1AEDCC571A9A2E790076715A /* Sources */,
+				1AEDCC581A9A2E790076715A /* Frameworks */,
+				1AEDCC591A9A2E790076715A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataEncryptor;
+			productName = DataEncryptor;
+			productReference = 1AEDCC5B1A9A2E790076715A /* DataEncryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AEDCC6D1A9A2E7A0076715A /* DataEncryptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEDCC7B1A9A2E7A0076715A /* Build configuration list for PBXNativeTarget "DataEncryptorTests" */;
+			buildPhases = (
+				1AEDCC6A1A9A2E7A0076715A /* Sources */,
+				1AEDCC6B1A9A2E7A0076715A /* Frameworks */,
+				1AEDCC6C1A9A2E7A0076715A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEDCC701A9A2E7A0076715A /* PBXTargetDependency */,
+			);
+			name = DataEncryptorTests;
+			productName = DataEncryptorTests;
+			productReference = 1AEDCC6E1A9A2E7A0076715A /* DataEncryptorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEDCC531A9A2E790076715A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tolik Shevchenko";
+				TargetAttributes = {
+					1AEDCC5A1A9A2E790076715A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1AEDCC6D1A9A2E7A0076715A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1AEDCC5A1A9A2E790076715A;
+					};
+				};
+			};
+			buildConfigurationList = 1AEDCC561A9A2E790076715A /* Build configuration list for PBXProject "DataEncryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEDCC521A9A2E790076715A;
+			productRefGroup = 1AEDCC5C1A9A2E790076715A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEDCC5A1A9A2E790076715A /* DataEncryptor */,
+				1AEDCC6D1A9A2E7A0076715A /* DataEncryptorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEDCC591A9A2E790076715A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEDCC661A9A2E790076715A /* Images.xcassets in Resources */,
+				1AEDCC691A9A2E7A0076715A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEDCC6C1A9A2E7A0076715A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEDCC571A9A2E790076715A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEDCC641A9A2E790076715A /* main.m in Sources */,
+				1AEDCC801A9A39240076715A /* TSDataEncryptorController.m in Sources */,
+				1AEDCC621A9A2E790076715A /* AppDelegate.m in Sources */,
+				5AA483EC1C1D6BB5007FEFB1 /* TSDataEncryptorHelper.m in Sources */,
+				1A5A2B441AAF891B0065E527 /* TSDataEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEDCC6A1A9A2E7A0076715A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEDCC751A9A2E7A0076715A /* DataEncryptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEDCC701A9A2E7A0076715A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEDCC5A1A9A2E790076715A /* DataEncryptor */;
+			targetProxy = 1AEDCC6F1A9A2E7A0076715A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AEDCC671A9A2E7A0076715A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEDCC681A9A2E7A0076715A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEDCC761A9A2E7A0076715A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AEDCC771A9A2E7A0076715A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AEDCC791A9A2E7A0076715A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DataEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tolik-Shevchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AEDCC7A1A9A2E7A0076715A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DataEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tolik-Shevchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AEDCC7C1A9A2E7A0076715A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataEncryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tolik-Shevchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataEncryptor.app/Contents/MacOS/DataEncryptor";
+			};
+			name = Debug;
+		};
+		1AEDCC7D1A9A2E7A0076715A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataEncryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tolik-Shevchenko.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataEncryptor.app/Contents/MacOS/DataEncryptor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEDCC561A9A2E790076715A /* Build configuration list for PBXProject "DataEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEDCC761A9A2E7A0076715A /* Debug */,
+				1AEDCC771A9A2E7A0076715A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEDCC781A9A2E7A0076715A /* Build configuration list for PBXNativeTarget "DataEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEDCC791A9A2E7A0076715A /* Debug */,
+				1AEDCC7A1A9A2E7A0076715A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEDCC7B1A9A2E7A0076715A /* Build configuration list for PBXNativeTarget "DataEncryptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEDCC7C1A9A2E7A0076715A /* Debug */,
+				1AEDCC7D1A9A2E7A0076715A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEDCC531A9A2E790076715A /* Project object */;
+}
